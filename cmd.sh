@@ -1,3 +1,3 @@
 #!/bin/bash
 # Compiler
-for f in $@/*; do g++ $f ${f/.cpp/};done
+for f in $@/*.cpp; do g++ $f ${f/.cpp/};done
