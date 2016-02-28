@@ -64,7 +64,7 @@ namespace ConsoleApplication4
                     }
                 }
             }
-            Console.WriteLine("\Il punteggio finale è " + punteggio[0] + "/" + punteggio[1] + "\nCiao ciao!");
+            Console.WriteLine("\nIl punteggio finale è " + punteggio[0] + "/" + punteggio[1] + "\nCiao ciao!");
             Console.ReadKey();
         }
     }

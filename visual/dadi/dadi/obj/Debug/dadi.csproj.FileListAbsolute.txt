@@ -1,0 +1,12 @@
+C:\Users\Studente\Desktop\dadi\dadi\bin\Debug\dadi.exe.config
+C:\Users\Studente\Desktop\dadi\dadi\bin\Debug\dadi.exe
+C:\Users\Studente\Desktop\dadi\dadi\bin\Debug\dadi.pdb
+C:\Users\Studente\Desktop\dadi\dadi\obj\Debug\dadi.csprojResolveAssemblyReference.cache
+C:\Users\Studente\Desktop\dadi\dadi\obj\Debug\dadi.exe
+C:\Users\Studente\Desktop\dadi\dadi\obj\Debug\dadi.pdb
+G:\scuola\dadi\dadi\bin\Debug\dadi.exe.config
+G:\scuola\dadi\dadi\obj\Debug\dadi.exe
+G:\scuola\dadi\dadi\obj\Debug\dadi.pdb
+G:\scuola\dadi\dadi\bin\Debug\dadi.exe
+G:\scuola\dadi\dadi\bin\Debug\dadi.pdb
+G:\scuola\dadi\dadi\obj\Debug\dadi.csprojResolveAssemblyReference.cache

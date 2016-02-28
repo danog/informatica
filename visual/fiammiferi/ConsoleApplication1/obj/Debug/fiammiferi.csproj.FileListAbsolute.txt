@@ -1,0 +1,6 @@
+G:\scuola\fiammiferi\ConsoleApplication1\obj\Debug\fiammiferi.csprojResolveAssemblyReference.cache
+G:\scuola\fiammiferi\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+G:\scuola\fiammiferi\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+G:\scuola\fiammiferi\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+G:\scuola\fiammiferi\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+G:\scuola\fiammiferi\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
