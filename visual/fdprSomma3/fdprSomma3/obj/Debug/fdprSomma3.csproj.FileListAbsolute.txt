@@ -1,0 +1,5 @@
+G:\scuola\fdprSomma3\fdprSomma3\bin\Debug\fdprSomma3.exe.config
+G:\scuola\fdprSomma3\fdprSomma3\bin\Debug\fdprSomma3.exe
+G:\scuola\fdprSomma3\fdprSomma3\bin\Debug\fdprSomma3.pdb
+G:\scuola\fdprSomma3\fdprSomma3\obj\Debug\fdprSomma3.exe
+G:\scuola\fdprSomma3\fdprSomma3\obj\Debug\fdprSomma3.pdb

@@ -1,0 +1,9 @@
+G:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+G:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+G:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+G:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\obj\Debug\fdprSalveRagazzi.csprojResolveAssemblyReference.cache
+G:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+G:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+I:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+I:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+I:\Dati\Documenti\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

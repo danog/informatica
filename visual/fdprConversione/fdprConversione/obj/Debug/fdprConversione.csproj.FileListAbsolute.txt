@@ -1,0 +1,12 @@
+G:\scuola\fdprConversione\fdprConversione\bin\Debug\fdprConversione.exe.config
+G:\scuola\fdprConversione\fdprConversione\bin\Debug\fdprConversione.exe
+G:\scuola\fdprConversione\fdprConversione\bin\Debug\fdprConversione.pdb
+G:\scuola\fdprConversione\fdprConversione\obj\Debug\fdprConversione.exe
+G:\scuola\fdprConversione\fdprConversione\obj\Debug\fdprConversione.pdb
+G:\scuola\fdprConversione\fdprConversione\obj\Debug\fdprConversione.csprojResolveAssemblyReference.cache
+I:\scuola\fdprConversione\fdprConversione\bin\Debug\fdprConversione.exe.config
+I:\scuola\fdprConversione\fdprConversione\obj\Debug\fdprConversione.exe
+I:\scuola\fdprConversione\fdprConversione\obj\Debug\fdprConversione.pdb
+I:\scuola\fdprConversione\fdprConversione\bin\Debug\fdprConversione.exe
+I:\scuola\fdprConversione\fdprConversione\bin\Debug\fdprConversione.pdb
+I:\scuola\fdprConversione\fdprConversione\obj\Debug\fdprConversione.csprojResolveAssemblyReference.cache
