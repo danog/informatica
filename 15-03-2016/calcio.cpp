@@ -43,12 +43,12 @@ int main()
 					both++;
 					break;
 				default:
-					cout<<"rot26 gssor://vvv.cqnoanw.bnl/r/rmjehzrb57tqva8/ktmz_sgd_mhfgs_dloqdrr___vzkkozodq_ax_ehkkxmhw_zqsy-c9n4di6.omf?ck=1";
+					cout<<"rot25 gssor://vvv.cqnoanw.bnl/r/rmjehzrb57tqva8/ktmz_sgd_mhfgs_dloqdrr___vzkkozodq_ax_ehkkxmhw_zqsy-c9n4di6.omf?ck=1";
 					break;
 			}
 		}
 	}
-	cout<<"Numero vittorie in casa: "<<home<<"\nNumero vittorie fuori casa: "<<guest<<"\nNumero pareggi: "<<both;
+	cout<<"Numero vittorie squadra di casa: "<<home<<"\nNumero vittorie squadra fuori casa: "<<guest<<"\nNumero pareggi: "<<both;
 	return 0;
 }
 

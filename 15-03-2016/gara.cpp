@@ -4,7 +4,6 @@
 //
 
 #include <iostream>
-#include <sstream>
 
 using namespace std;
 
@@ -28,7 +27,7 @@ int main()
 	int n = 0;
 	int max = 0;
 	int points;
-	string winner, nome, win;
+	string winner, nome, wintxt;
 	
 	while (nome != ".") {
 		cout<<"\nInserire il nome del "<<n+1<<"^ atleta (scrivi . per annullare): ";
@@ -38,13 +37,13 @@ int main()
 
 			if (points == max) {
 				winner += ", " + nome;
-				win = "Vincono (ex aequo)";
+				wintxt = "Vincono (ex aequo)";
 			}
 			
 			if(points > max || n == 0) {
 				max = points;
 				winner = nome;
-				win = "Vince";
+				wintxt = "Vince";
 			}
 			
 			n++;
@@ -52,7 +51,9 @@ int main()
 	}
 	
 	if (winner != "") {
-		cout<<win<<" la gara: "<<winner<<" con "<<max<<" punti.";
+		cout<<wintxt<<" la gara: "<<winner<<" con "<<max<<" punti.";
+	} else {
+		cout<<"Non hai inserito neanche un nome.";
 	}
 	return 0;
 }

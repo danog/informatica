@@ -33,7 +33,7 @@ int main()
 			vittorie[input]++;
 		}
 	}
-	cout<<"Numero vittorie in casa: "<<vittorie[1]<<"\nNumero vittorie fuori casa: "<<vittorie[2]<<"\nNumero pareggi: "<<vittorie[0];
+	cout<<"Numero vittorie squadra di casa: "<<vittorie[1]<<"\nNumero vittorie squadra fuori casa: "<<vittorie[2]<<"\nNumero pareggi: "<<vittorie[0];
 	return 0;
 }
 

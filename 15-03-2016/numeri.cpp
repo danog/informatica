@@ -4,7 +4,6 @@
 //
 
 #include <iostream>
-#include <string> 
 
 using namespace std;
 
@@ -39,7 +38,7 @@ int main()
 		input = tryreadint("");
 		if (input % 2 == 0){
 			div[0]++;
-		} 
+		}
 		if(input % 3 == 0){
 			div[1]++;
 		}
