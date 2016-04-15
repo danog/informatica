@@ -1,0 +1,9 @@
+G:\scuola\lettura_scrittura\lettura_scrittura\bin\Debug\lettura_scrittura.exe.config
+G:\scuola\lettura_scrittura\lettura_scrittura\bin\Debug\lettura_scrittura.exe
+G:\scuola\lettura_scrittura\lettura_scrittura\bin\Debug\lettura_scrittura.pdb
+G:\scuola\lettura_scrittura\lettura_scrittura\obj\Debug\lettura_scrittura.csprojResolveAssemblyReference.cache
+G:\scuola\lettura_scrittura\lettura_scrittura\obj\Debug\lettura_scrittura.exe
+G:\scuola\lettura_scrittura\lettura_scrittura\obj\Debug\lettura_scrittura.pdb
+I:\scuola\lettura_scrittura\lettura_scrittura\bin\Debug\lettura_scrittura.exe.config
+I:\scuola\lettura_scrittura\lettura_scrittura\obj\Debug\lettura_scrittura.exe
+I:\scuola\lettura_scrittura\lettura_scrittura\obj\Debug\lettura_scrittura.pdb

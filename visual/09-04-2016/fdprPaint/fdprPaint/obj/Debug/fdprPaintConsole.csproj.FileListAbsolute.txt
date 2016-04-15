@@ -1,0 +1,5 @@
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe.config
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\bin\Debug\fdprPaint.pdb
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\obj\Debug\fdprPaint.exe
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\obj\Debug\fdprPaint.pdb

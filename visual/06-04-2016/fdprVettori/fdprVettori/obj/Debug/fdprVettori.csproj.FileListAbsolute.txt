@@ -1,0 +1,24 @@
+E:\sharedFolder\StudentiMelon\3F\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
+\\informatica201\StudentiMelon\3F\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
+E:\sharedFolder\StudentiMelon\3F\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe
+E:\sharedFolder\StudentiMelon\3F\fdprVettori\fdprVettori\bin\Debug\fdprVettori.pdb
+E:\sharedFolder\StudentiMelon\3F\fdprVettori\fdprVettori\obj\Debug\fdprVettori.csprojResolveAssemblyReference.cache
+E:\sharedFolder\StudentiMelon\3F\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
+E:\sharedFolder\StudentiMelon\3F\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
+\\informatica201\StudentiMelon\3F\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
+\\informatica201\StudentiMelon\3F\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
+\\INFORMATICA201\StudentiMelon\3F\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe
+\\INFORMATICA201\StudentiMelon\3F\fdprVettori\fdprVettori\bin\Debug\fdprVettori.pdb
+\\INFORMATICA201\StudentiMelon\3F\fdprVettori\fdprVettori\obj\Debug\fdprVettori.csprojResolveAssemblyReference.cache
+G:\scuola\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
+G:\scuola\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
+G:\scuola\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
+G:\scuola\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe
+G:\scuola\fdprVettori\fdprVettori\bin\Debug\fdprVettori.pdb
+G:\scuola\fdprVettori\fdprVettori\obj\Debug\fdprVettori.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\06-04-2016\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\06-04-2016\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\06-04-2016\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
