@@ -1,0 +1,6 @@
+G:\scuola\16-04-2016\fdprPassaggio\bin\Debug\fdprPassaggio.exe.config
+G:\scuola\16-04-2016\fdprPassaggio\obj\Debug\fdprPassaggio.csprojResolveAssemblyReference.cache
+G:\scuola\16-04-2016\fdprPassaggio\bin\Debug\fdprPassaggio.exe
+G:\scuola\16-04-2016\fdprPassaggio\bin\Debug\fdprPassaggio.pdb
+G:\scuola\16-04-2016\fdprPassaggio\obj\Debug\fdprPassaggio.exe
+G:\scuola\16-04-2016\fdprPassaggio\obj\Debug\fdprPassaggio.pdb

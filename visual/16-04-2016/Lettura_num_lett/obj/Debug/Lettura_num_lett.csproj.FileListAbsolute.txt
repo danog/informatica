@@ -1,0 +1,9 @@
+C:\Users\Studente\Desktop\Lettura_num_lett\bin\Debug\Lettura_num_lett.exe.config
+C:\Users\Studente\Desktop\Lettura_num_lett\bin\Debug\Lettura_num_lett.exe
+C:\Users\Studente\Desktop\Lettura_num_lett\bin\Debug\Lettura_num_lett.pdb
+C:\Users\Studente\Desktop\Lettura_num_lett\obj\Debug\Lettura_num_lett.csprojResolveAssemblyReference.cache
+C:\Users\Studente\Desktop\Lettura_num_lett\obj\Debug\Lettura_num_lett.exe
+C:\Users\Studente\Desktop\Lettura_num_lett\obj\Debug\Lettura_num_lett.pdb
+G:\scuola\16-04-2016\Lettura_num_lett\bin\Debug\Lettura_num_lett.exe.config
+G:\scuola\16-04-2016\Lettura_num_lett\obj\Debug\Lettura_num_lett.exe
+G:\scuola\16-04-2016\Lettura_num_lett\obj\Debug\Lettura_num_lett.pdb

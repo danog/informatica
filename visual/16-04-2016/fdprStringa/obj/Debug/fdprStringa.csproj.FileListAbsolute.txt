@@ -1,0 +1,6 @@
+G:\scuola\16-04-2016\fdprStringa\bin\Debug\fdprStringa.exe.config
+G:\scuola\16-04-2016\fdprStringa\obj\Debug\fdprStringa.csprojResolveAssemblyReference.cache
+G:\scuola\16-04-2016\fdprStringa\bin\Debug\fdprStringa.exe
+G:\scuola\16-04-2016\fdprStringa\bin\Debug\fdprStringa.pdb
+G:\scuola\16-04-2016\fdprStringa\obj\Debug\fdprStringa.exe
+G:\scuola\16-04-2016\fdprStringa\obj\Debug\fdprStringa.pdb
