@@ -16,3 +16,6 @@ G:\scuola\16-04-2016\fdprFrequenzaCar2\fdprFrequenzaCar\obj\Debug\fdprFrequenzaC
 G:\scuola\16-04-2016\fdprFrequenzaCar2\fdprFrequenzaCar\bin\Debug\fdprFrequenzaCar.exe
 G:\scuola\16-04-2016\fdprFrequenzaCar2\fdprFrequenzaCar\bin\Debug\fdprFrequenzaCar.pdb
 G:\scuola\16-04-2016\fdprFrequenzaCar2\fdprFrequenzaCar\obj\Debug\fdprFrequenzaCar.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\16-04-2016\fdprFrequenzaCar2\fdprFrequenzaCar\bin\Debug\fdprFrequenzaCar.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\16-04-2016\fdprFrequenzaCar2\fdprFrequenzaCar\obj\Debug\fdprFrequenzaCar.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\16-04-2016\fdprFrequenzaCar2\fdprFrequenzaCar\obj\Debug\fdprFrequenzaCar.pdb

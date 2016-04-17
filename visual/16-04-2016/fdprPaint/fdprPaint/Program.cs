@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace fdprPaint
 {
@@ -15,66 +16,122 @@ namespace fdprPaint
             int y = 0;
             int max_x = Console.WindowWidth - 1;
             int max_y = Console.WindowHeight - 2;
+            string path;
             char[,] mappa = new char[max_x + 1, max_y + 1];
+            Console.TreatControlCAsInput = true;
 
-            char matita = '.';
-            ConsoleKey input = ConsoleKey.A;
-            printmenu(new string[] { "^X: Esci ^C Cambia carattere ^L Carica disegno ^S Salva disegno     ", "x: " + Console.CursorLeft + ", y: " + Console.CursorTop});
+            char matita = '\0';
+            ConsoleKeyInfo input = new ConsoleKeyInfo('W', ConsoleKey.W, false, false, false);
 
-            while (input != ConsoleKey.X)
+            printmenu(new string[] { "^X: Exit", "^C Change char", "^L Load", "^O Save", "x: " + Console.CursorLeft + ", y: " + Console.CursorTop }, true);
+
+            while (!(input.Key == ConsoleKey.X && input.Modifiers == ConsoleModifiers.Control))
             {
-                input = Console.ReadKey(true).Key;
-                switch (input)
+                input = Console.ReadKey(true);
+
+                if (input.Modifiers == ConsoleModifiers.Control)
                 {
-                    case ConsoleKey.LeftArrow:
-                        x--;
-
-                        printTo(ref x, ref y, max_x, max_y, matita, input, ref mappa);
-                        break;
-                    case ConsoleKey.RightArrow:
-                        x++;
-
-                        printTo(ref x, ref y, max_x, max_y, matita, input, ref mappa);
-                        break;
-                    case ConsoleKey.DownArrow:
-                        y++;
-
-                        printTo(ref x, ref y, max_x, max_y, matita, input, ref mappa);
-                        break;
-                    case ConsoleKey.UpArrow:
-                        y--;
-
-                        printTo(ref x, ref y, max_x, max_y, matita, input, ref mappa);
-                        break;
-                    case ConsoleKey.Insert:
-                        if (matita == '.') matita = ' ';  else matita = '.';
-                        break;
-                }
-            }
-            Console.Clear();
-
-            // x is width (oriz), y is height (vert), index 0 is x, index 1 is y
-            int[] length = { mappa.GetLength(0), mappa.GetLength(1) };
-
-            System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\Daniil\diesgno.txt");
-
-            for (int yy = 0; yy < length[1]; yy++)
-            {
-                for (int xx = 0; xx < length[0]; xx++)
-                {
-                    if (mappa[xx, yy] == '\0')
+                    switch (input.Key)
                     {
-                        mappa[xx, yy] = ' ';
+                        case ConsoleKey.C:
+                            matita = Convert.ToChar(readmenu("Input your char: ", 1));
+                            break;
+                        case ConsoleKey.L:
+                            break;
+                        case ConsoleKey.O:
+                            path = readmenu("Input the destination file path: ", 1000000);/*
+                            do {
+                                path = readmenu("Wrong file path! Input the destination file path: ", 1000000);
+                            } while (!*/
+                            Console.WriteLine(printtofile(ref mappa, path));
+                            break;
                     }
-                    file.Write(mappa[xx, yy]);
+
+                } else {
+                    switch (input.Key)
+                    {
+                        case ConsoleKey.LeftArrow:
+                            x--;
+                            break;
+                        case ConsoleKey.RightArrow:
+                            x++;
+                            break;
+                        case ConsoleKey.DownArrow:
+                            y++;
+                            break;
+                        case ConsoleKey.UpArrow:
+                            y--;
+                            break;
+                    }
+
+                    printTo(ref x, ref y, max_x, max_y, matita, input.Key, ref mappa);
                 }
-                file.WriteLine();
+                printmenu(new string[] { "^X: Exit", "^C Change char", "^L Load", "^O Save", "x: " + Console.CursorLeft + ", y: " + Console.CursorTop }, true);
+
             }
-            Console.ReadKey(true);
         }
 
-        static void printmenu(string[] elements)
+        static bool printtofile(ref char[,] mappa, string dest)
         {
+
+            // x is width (oriz), y is height (vert), index 0 is x, index 1 is y
+            string result; 
+            try
+            {
+                System.IO.StreamWriter file = new System.IO.StreamWriter(@dest);
+                
+                if() {
+                    do {
+                        readmenu("File exists. Overwrite (y/n)?", 1);
+                    } while(result != "y" || result != "n")
+                }
+                
+                for (int yy = 0; yy < mappa.GetLength(1); yy++)
+                {
+                    for (int xx = 0; xx < mappa.GetLength(0); xx++)
+                    {
+                        if (mappa[xx, yy] == '\0')
+                        {
+                            mappa[xx, yy] = ' ';
+                        }
+                        file.Write(mappa[xx, yy]);
+                    }
+                    file.WriteLine();
+                }
+                file.Close();
+            } catch(Exception) {
+                return false;
+            }
+            
+
+            return true;
+        }
+
+        static string readmenu(string wut, int dove)
+        {
+            string input = "";
+            char inputchar;
+            int left = Console.CursorLeft;
+            int top = Console.CursorTop;
+            printmenu(new string[] { wut }, false);
+
+            for (int x = 1; x <= dove; x++)
+            {
+                inputchar = Convert.ToChar(Console.Read());
+                if (inputchar == '\r')
+                {
+                    x = dove + 1;
+                } else input += inputchar.ToString();
+            }
+            Console.SetCursorPosition(0, 0);
+            Console.SetCursorPosition(left, top);
+            Console.ResetColor();
+            return input;
+        }
+        static void printmenu(string[] elements, bool reset)
+        {
+            int left = Console.CursorLeft;
+            int top = Console.CursorTop;
             Console.SetCursorPosition(0, Console.WindowHeight - 1);
             Console.ForegroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.Gray;
@@ -94,9 +151,14 @@ namespace fdprPaint
                 else space -= space / (elements.Length - x);
                 Console.Write(elements[x]);
             }
-            Console.ResetColor();
-            Console.SetCursorPosition(0, 0);
+            if (reset == true)
+            {
+                Console.ResetColor();
+                Console.SetCursorPosition(0, 0);
+                Console.SetCursorPosition(left, top);
+            }
         }
+
         static void checkmaxmin(ref int c, int max)
         {
             if(c < 0) {
