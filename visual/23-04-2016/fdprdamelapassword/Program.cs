@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
 
 namespace fdprdamelapassword
 {
@@ -14,6 +15,16 @@ namespace fdprdamelapassword
              * data la password criptata redeterminare la password originale con il codfice di cripatzione
              * bancomat se la password è giusta allora ok
             */
+
+        }
+        static string encrypt(string data, string key)
+        {
+            
+        }
+
+        static string decrypt(string data, string key)
+        {
+
         }
     }
 }
