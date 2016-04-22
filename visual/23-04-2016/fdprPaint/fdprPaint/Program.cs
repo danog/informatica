@@ -14,12 +14,10 @@ namespace fdprPaint
             // barra griga sotto con menu di salvataggio con coordinate, valore personalizzato e colore personalizzato usa serialize per scirvere proprio i caratteri 
             int x = 0;
             int y = 0;
-            int max_x = Console.WindowWidth - 1;
-            int max_y = Console.WindowHeight - 2;
             string path;
             string prompt;
             bool charread = false;
-            char[,] mappa = new char[max_x + 1, max_y + 1];
+            char[,] mappa = new char[Console.WindowWidth, Console.WindowHeight - 1];
             Console.TreatControlCAsInput = true;
 
             char matita = '\0';
@@ -57,18 +55,18 @@ namespace fdprPaint
                         case ConsoleKey.L:
                             
                             prompt = "Input the file path: ";
-                            path = readmenu(prompt, 10000000);
+                            path = readmenu(prompt);
                             while (!readfromfile(ref mappa, path)) {
-                                prompt = "Wrong file path! Input the file path: ";
-                                path = readmenu(prompt, 10000000);
+                                prompt = "An error occurred! Input the file path: ";
+                                path = readmenu(prompt);
                             };
                             break;
                         case ConsoleKey.O:
                             prompt = "Input the destination file path: ";
-                            path = readmenu(prompt, 10000000);
+                            path = readmenu(prompt);
                             while (!printtofile(ref mappa, path)) {
                                 prompt = "An error occurred! Input the destination file path: ";
-                                path = readmenu(prompt, 10000000);
+                                path = readmenu(prompt);
                             };
                             break;
                     }
@@ -79,22 +77,22 @@ namespace fdprPaint
                         case ConsoleKey.LeftArrow:
                             x--;
 
-                            printTo(ref x, ref y, max_x, max_y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, input.Key, ref mappa);
                             break;
                         case ConsoleKey.RightArrow:
                             x++;
 
-                            printTo(ref x, ref y, max_x, max_y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, input.Key, ref mappa);
                             break;
                         case ConsoleKey.DownArrow:
                             y++;
 
-                            printTo(ref x, ref y, max_x, max_y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, input.Key, ref mappa);
                             break;
                         case ConsoleKey.UpArrow:
                             y--;
 
-                            printTo(ref x, ref y, max_x, max_y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, input.Key, ref mappa);
                             break;
                     }
 
@@ -163,9 +161,9 @@ namespace fdprPaint
 
             // x is width (oriz), y is height (vert), index 0 is x, index 1 is y
             Console.Clear();
-
+            /*
             try
-            {
+            {*/
                 if (Directory.Exists(@dest))
                 {
                     printmenu(new string[] { "Path is a directory. Specify another path." }, false);
@@ -180,8 +178,8 @@ namespace fdprPaint
                     System.Threading.Thread.Sleep(3000);
                     return false;
                 }
-                int width = 0;
-                int height = 0;
+                int width = -1;
+                int height = -1;
                 using (var reader = File.OpenText(@dest))
                 {
                     string curline = reader.ReadLine();
@@ -193,6 +191,9 @@ namespace fdprPaint
                     }
                 }
 
+                height++;
+
+
                 if (height > Console.LargestWindowHeight)
                 {
                     height = Console.LargestWindowHeight;
@@ -202,13 +203,30 @@ namespace fdprPaint
                     width = Console.LargestWindowWidth;
                 }
 
-                Console.SetWindowSize(width, height);
+
+                if (Console.WindowHeight < height && Console.WindowWidth < width)
+                {
+                    Console.SetWindowSize(width, height +1);
+                }
+                else if (Console.WindowWidth < width)
+                {
+                    Console.SetWindowSize(width, Console.WindowHeight);
+                }
+                else if (Console.WindowHeight < height)
+                {
+                    Console.SetWindowSize(Console.WindowWidth, height + 1);
+                }
+
+
+
+
+                mappa = new char[Console.WindowWidth, Console.WindowHeight - 1];
 
                 using (var reader = File.OpenText(@dest))
                 {
 
-                    int curheight = 0;
-                    int curwidth = 0;
+                    int curheight = -1;
+                    int curwidth = -1;
                     string curline = reader.ReadLine();
                     while (curline != null)
                     {
@@ -221,6 +239,7 @@ namespace fdprPaint
                                 if (curwidth < width)
                                 {
                                     Console.Write(curline[x]);
+                                    mappa[curwidth, curheight] = curline[x];
                                 }
                             }
                             Console.WriteLine();
@@ -230,20 +249,19 @@ namespace fdprPaint
                         curline = reader.ReadLine();
                     }
                 }
-                Console.SetCursorPosition(0, 0);
-
+                Console.SetCursorPosition(0, 0);/*
             }
             catch (Exception)
             {
                 return false;
             }
-
+                */
 
             return true;
         }
 
 
-        static string readmenu(string wut, int dove)
+        static string readmenu(string wut, int dove = 10000000)
         {
             string input = "";
             char inputchar;
@@ -263,10 +281,21 @@ namespace fdprPaint
                 }
                 else
                 {
-                    if(inputchar != '\r') input += inputchar.ToString();
+                    if (inputchar == '\b')
+                    {
+                        Console.Write(" ");
+                        Console.Write('\b');
+                        x--;
+                        input = input.Remove(input.Length - 1);
+
+                    }
+                    else
+                    {
+                        input += inputchar.ToString();
+                    }
+
                 }
             }
-
             Console.SetCursorPosition(left, top);
             Console.ResetColor();
             return input;
@@ -311,11 +340,11 @@ namespace fdprPaint
                 c--;
             }
         }
-        static void printTo(ref int x, ref int y, int max_x, int max_y, char print, ConsoleKey last, ref char[,] mappa)
+        static void printTo(ref int x, ref int y, char print, ConsoleKey last, ref char[,] mappa)
         {
 
-            checkmaxmin(ref x, max_x);
-            checkmaxmin(ref y, max_y);
+            checkmaxmin(ref x, Console.WindowWidth - 1);
+            checkmaxmin(ref y, Console.WindowHeight - 2);
             mappa[Console.CursorLeft, Console.CursorTop] = print;
             mappa[x, y] = print;
 
