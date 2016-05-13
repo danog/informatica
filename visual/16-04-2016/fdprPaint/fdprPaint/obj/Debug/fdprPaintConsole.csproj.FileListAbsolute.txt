@@ -1,0 +1,20 @@
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe.config
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\bin\Debug\fdprPaint.pdb
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\obj\Debug\fdprPaint.exe
+G:\Dati\Terza\3f INFO\Programmi C#\fdprPaint\fdprPaint\obj\Debug\fdprPaint.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\15-04-2016\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\15-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaint.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\15-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaint.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\15-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaintConsole.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\15-04-2016\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\15-04-2016\fdprPaint\fdprPaint\bin\Debug\fdprPaint.pdb
+I:\scuola\10-04-2016\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe.config
+I:\scuola\10-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaint.exe
+I:\scuola\10-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaint.pdb
+G:\scuola\16-04-2016\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe.config
+G:\scuola\16-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaint.exe
+G:\scuola\16-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaint.pdb
+G:\scuola\16-04-2016\fdprPaint\fdprPaint\bin\Debug\fdprPaint.exe
+G:\scuola\16-04-2016\fdprPaint\fdprPaint\bin\Debug\fdprPaint.pdb
+G:\scuola\16-04-2016\fdprPaint\fdprPaint\obj\Debug\fdprPaintConsole.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+G:\scuola\fdprSomma4\fdprSomma4\bin\Debug\fdprSomma4.exe.config
+G:\scuola\fdprSomma4\fdprSomma4\obj\Debug\fdprSomma4.csprojResolveAssemblyReference.cache
+G:\scuola\fdprSomma4\fdprSomma4\bin\Debug\fdprSomma4.exe
+G:\scuola\fdprSomma4\fdprSomma4\bin\Debug\fdprSomma4.pdb
+G:\scuola\fdprSomma4\fdprSomma4\obj\Debug\fdprSomma4.exe
+G:\scuola\fdprSomma4\fdprSomma4\obj\Debug\fdprSomma4.pdb

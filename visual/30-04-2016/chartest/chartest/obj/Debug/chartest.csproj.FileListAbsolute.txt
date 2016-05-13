@@ -1,0 +1,5 @@
+G:\scuola\30-04-2016\chartest\chartest\bin\Debug\chartest.exe.config
+G:\scuola\30-04-2016\chartest\chartest\bin\Debug\chartest.exe
+G:\scuola\30-04-2016\chartest\chartest\bin\Debug\chartest.pdb
+G:\scuola\30-04-2016\chartest\chartest\obj\Debug\chartest.exe
+G:\scuola\30-04-2016\chartest\chartest\obj\Debug\chartest.pdb

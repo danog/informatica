@@ -1,0 +1,6 @@
+G:\scuola\07-05-2016\fdprRubrica\fdprRubrica\bin\Debug\fdprRubrica.exe.config
+G:\scuola\07-05-2016\fdprRubrica\fdprRubrica\bin\Debug\fdprRubrica.exe
+G:\scuola\07-05-2016\fdprRubrica\fdprRubrica\bin\Debug\fdprRubrica.pdb
+G:\scuola\07-05-2016\fdprRubrica\fdprRubrica\obj\Debug\fdprRubrica.csprojResolveAssemblyReference.cache
+G:\scuola\07-05-2016\fdprRubrica\fdprRubrica\obj\Debug\fdprRubrica.exe
+G:\scuola\07-05-2016\fdprRubrica\fdprRubrica\obj\Debug\fdprRubrica.pdb

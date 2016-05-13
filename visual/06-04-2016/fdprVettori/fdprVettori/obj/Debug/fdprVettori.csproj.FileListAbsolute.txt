@@ -16,9 +16,6 @@ G:\scuola\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
 G:\scuola\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe
 G:\scuola\fdprVettori\fdprVettori\bin\Debug\fdprVettori.pdb
 G:\scuola\fdprVettori\fdprVettori\obj\Debug\fdprVettori.csprojResolveAssemblyReference.cache
-C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
-C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
-C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
-C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\06-04-2016\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
-C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\06-04-2016\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
-C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\06-04-2016\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb
+G:\scuola\06-04-2016\fdprVettori\fdprVettori\bin\Debug\fdprVettori.exe.config
+G:\scuola\06-04-2016\fdprVettori\fdprVettori\obj\Debug\fdprVettori.exe
+G:\scuola\06-04-2016\fdprVettori\fdprVettori\obj\Debug\fdprVettori.pdb

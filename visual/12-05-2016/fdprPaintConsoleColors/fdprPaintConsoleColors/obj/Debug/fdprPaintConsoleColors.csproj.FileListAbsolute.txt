@@ -1,0 +1,13 @@
+G:\scuola\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\bin\Debug\fdprPaintConsoleColors.exe.config
+G:\scuola\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.csprojResolveAssemblyReference.cache
+G:\scuola\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\bin\Debug\fdprPaintConsoleColors.exe
+G:\scuola\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\bin\Debug\fdprPaintConsoleColors.pdb
+G:\scuola\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.exe
+G:\scuola\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\bin\Debug\fdprPaintConsoleColors.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\07-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\bin\Debug\fdprPaintConsoleColors.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprPaintConsoleColors\fdprPaintConsoleColors\obj\Debug\fdprPaintConsoleColors.csprojResolveAssemblyReference.cache

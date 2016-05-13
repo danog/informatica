@@ -1,0 +1,6 @@
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprMenu\fdprMenu\bin\Debug\fdprMenu.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprMenu\fdprMenu\obj\Debug\fdprMenu.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprMenu\fdprMenu\bin\Debug\fdprMenu.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprMenu\fdprMenu\bin\Debug\fdprMenu.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprMenu\fdprMenu\obj\Debug\fdprMenu.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual\12-05-2016\fdprMenu\fdprMenu\obj\Debug\fdprMenu.pdb

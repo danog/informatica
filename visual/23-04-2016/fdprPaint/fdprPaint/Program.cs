@@ -17,6 +17,7 @@ namespace fdprPaint
             string path;
             string prompt;
             bool charread = false;
+            
             char[,] mappa = new char[Console.WindowWidth, Console.WindowHeight - 1];
             Console.TreatControlCAsInput = true;
 
@@ -77,22 +78,22 @@ namespace fdprPaint
                         case ConsoleKey.LeftArrow:
                             x--;
 
-                            printTo(ref x, ref y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, ref mappa);
                             break;
                         case ConsoleKey.RightArrow:
                             x++;
 
-                            printTo(ref x, ref y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, ref mappa);
                             break;
                         case ConsoleKey.DownArrow:
                             y++;
 
-                            printTo(ref x, ref y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, ref mappa);
                             break;
                         case ConsoleKey.UpArrow:
                             y--;
 
-                            printTo(ref x, ref y, matita, input.Key, ref mappa);
+                            printTo(ref x, ref y, matita, ref mappa);
                             break;
                     }
 
@@ -116,6 +117,7 @@ namespace fdprPaint
 
             // x is width (oriz), y is height (vert), index 0 is x, index 1 is y
             string result = ""; 
+
             try
             {
                 if(Directory.Exists(@dest)) {
@@ -150,8 +152,6 @@ namespace fdprPaint
             } catch(Exception) {
                 return false;
             }
-            
-
             return true;
         }
 
@@ -161,9 +161,9 @@ namespace fdprPaint
 
             // x is width (oriz), y is height (vert), index 0 is x, index 1 is y
             Console.Clear();
-            /*
+            
             try
-            {*/
+            {
                 if (Directory.Exists(@dest))
                 {
                     printmenu(new string[] { "Path is a directory. Specify another path." }, false);
@@ -249,13 +249,13 @@ namespace fdprPaint
                         curline = reader.ReadLine();
                     }
                 }
-                Console.SetCursorPosition(0, 0);/*
+                Console.SetCursorPosition(0, 0);
             }
             catch (Exception)
             {
                 return false;
             }
-                */
+                
 
             return true;
         }
@@ -285,8 +285,12 @@ namespace fdprPaint
                     {
                         Console.Write(" ");
                         Console.Write('\b');
-                        x--;
-                        input = input.Remove(input.Length - 1);
+                        if (x != 1)
+                        {
+
+                            x--;
+                            input = input.Remove(input.Length - 1);
+                        }
 
                     }
                     else
@@ -340,7 +344,7 @@ namespace fdprPaint
                 c--;
             }
         }
-        static void printTo(ref int x, ref int y, char print, ConsoleKey last, ref char[,] mappa)
+        static void printTo(ref int x, ref int y, char print, ref char[,] mappa)
         {
 
             checkmaxmin(ref x, Console.WindowWidth - 1);

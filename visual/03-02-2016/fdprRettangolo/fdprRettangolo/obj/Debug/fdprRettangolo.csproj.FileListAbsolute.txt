@@ -1,0 +1,29 @@
+L:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+L:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe
+L:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.pdb
+L:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.csprojResolveAssemblyReference.cache
+L:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+L:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.pdb
+M:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+M:\Dati\Informatica\C#\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+E:\Studenti\3f_informatica\C#\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+E:\Studenti\3f_informatica\C#\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+E:\Studenti\3f_informatica\C#\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.csprojResolveAssemblyReference.cache
+E:\Studenti\3f_informatica\C#\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe
+E:\Studenti\3f_informatica\C#\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.pdb
+E:\Studenti\3f_informatica\C#\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.pdb
+L:\C#\Console application\Primi programmi semplici\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+L:\C#\Console application\Primi programmi semplici\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+L:\C#\Console application\Primi programmi semplici\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.pdb
+L:\C#\Console application\Programmi semplici\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+L:\C#\Console application\Programmi semplici\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+L:\C#\Console application\Programmi semplici\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.pdb
+M:\C#\Console application\Programmi semplici\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+M:\C#\Console application\Programmi semplici\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+M:\C#\Console application\Programmi semplici\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.pdb
+L:\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+L:\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+L:\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.pdb
+I:\scuola\fdprRettangolo\fdprRettangolo\bin\Debug\fdprRettangolo.exe.config
+I:\scuola\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.exe
+I:\scuola\fdprRettangolo\fdprRettangolo\obj\Debug\fdprRettangolo.pdb

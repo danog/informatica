@@ -1,0 +1,6 @@
+G:\scuola\30-04-2016\fdprProvaEsperta\fdprProvaEsperta\bin\Debug\fdprProvaEsperta.exe.config
+G:\scuola\30-04-2016\fdprProvaEsperta\fdprProvaEsperta\bin\Debug\fdprProvaEsperta.exe
+G:\scuola\30-04-2016\fdprProvaEsperta\fdprProvaEsperta\bin\Debug\fdprProvaEsperta.pdb
+G:\scuola\30-04-2016\fdprProvaEsperta\fdprProvaEsperta\obj\Debug\fdprProvaEsperta1.csprojResolveAssemblyReference.cache
+G:\scuola\30-04-2016\fdprProvaEsperta\fdprProvaEsperta\obj\Debug\fdprProvaEsperta.exe
+G:\scuola\30-04-2016\fdprProvaEsperta\fdprProvaEsperta\obj\Debug\fdprProvaEsperta.pdb

@@ -1,2 +1,3 @@
 G:\scuola\fdprdec2nondec\fdprdec2nondec\bin\Debug\fdprdec2nondec.exe.config
 G:\scuola\fdprdec2nondec\fdprdec2nondec\obj\Debug\fdprdec2nondec.csprojResolveAssemblyReference.cache
+G:\scuola\19-03-2016\fdprdec2nondec\fdprdec2nondec\bin\Debug\fdprdec2nondec.exe.config
