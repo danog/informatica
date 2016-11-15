@@ -21,10 +21,11 @@ namespace fdprPaint
             ConsoleColor[,] mappa = new ConsoleColor[Console.WindowWidth, Console.WindowHeight - 1];
             Console.TreatControlCAsInput = true;
 
-            char matita = '\0';
+            ConsoleKey colore = ConsoleColor.Black;
             ConsoleKeyInfo input = new ConsoleKeyInfo('W', ConsoleKey.W, false, false, false);
 
             printmenu(new string[] { "^X: Exit", "^C Change color", "^L Load", "^O Save", "x: " + Console.CursorLeft + ", y: " + Console.CursorTop }, true);
+            Char matita = ' ';
 
             while (!(input.Key == ConsoleKey.X && input.Modifiers == ConsoleModifiers.Control))
             {
@@ -120,7 +121,7 @@ namespace fdprPaint
             Console.SetCursorPosition(left, top);
         }
 
-        static bool printtofile(ref char[,] mappa, string dest)
+        static bool printtofile(ref ConsoleColor[,] mappa, string dest)
         {
 
             // x is width (oriz), y is height (vert), index 0 is x, index 1 is y
@@ -169,7 +170,7 @@ namespace fdprPaint
         }
 
 
-        static bool readfromfile(ref char[,] mappa, string dest)
+        static bool readfromfile(ref ConsoleColor[,] mappa, string dest)
         {
 
             // x is width (oriz), y is height (vert), index 0 is x, index 1 is y
@@ -359,7 +360,7 @@ namespace fdprPaint
                 c--;
             }
         }
-        static void printTo(ref int x, ref int y, char print, ref char[,] mappa)
+        static void printTo(ref int x, ref int y, char print, ref ConsoleColor[,] mappa)
         {
 
             checkmaxmin(ref x, Console.WindowWidth - 1);

@@ -1,0 +1,5 @@
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\MassimoFraN\MassimoFraN\bin\Debug\MassimoFraN.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\MassimoFraN\MassimoFraN\bin\Debug\MassimoFraN.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\MassimoFraN\MassimoFraN\bin\Debug\MassimoFraN.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\MassimoFraN\MassimoFraN\obj\Debug\MassimoFraN.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\MassimoFraN\MassimoFraN\obj\Debug\MassimoFraN.pdb

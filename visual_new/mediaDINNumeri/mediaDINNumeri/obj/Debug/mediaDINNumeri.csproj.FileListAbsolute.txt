@@ -1,0 +1,6 @@
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\mediaDINNumeri\mediaDINNumeri\bin\Debug\mediaDINNumeri.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\mediaDINNumeri\mediaDINNumeri\obj\Debug\mediaDINNumeri.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\mediaDINNumeri\mediaDINNumeri\bin\Debug\mediaDINNumeri.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\mediaDINNumeri\mediaDINNumeri\bin\Debug\mediaDINNumeri.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\mediaDINNumeri\mediaDINNumeri\obj\Debug\mediaDINNumeri.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\mediaDINNumeri\mediaDINNumeri\obj\Debug\mediaDINNumeri.pdb

@@ -1,0 +1,6 @@
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\PoligoniRegolari\PoligoniRegolari\bin\Debug\PoligoniRegolari.exe.config
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\PoligoniRegolari\PoligoniRegolari\obj\Debug\PoligoniRegolari.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\PoligoniRegolari\PoligoniRegolari\bin\Debug\PoligoniRegolari.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\PoligoniRegolari\PoligoniRegolari\bin\Debug\PoligoniRegolari.pdb
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\PoligoniRegolari\PoligoniRegolari\obj\Debug\PoligoniRegolari.exe
+C:\Users\Daniil\Dropbox\DANIIL LICEO ANNO 2015-2016\informatica\visual_new\PoligoniRegolari\PoligoniRegolari\obj\Debug\PoligoniRegolari.pdb
